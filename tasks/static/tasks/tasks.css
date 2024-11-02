@@ -1,0 +1,88 @@
+/* General page styling */
+body {
+    background-color: burlywood ; /* Purple background */
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Container styling */
+.container {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #000;
+    text-align: center;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+input[type="submit"].btn {
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"].btn:hover {
+    background-color: #315c92; /* Darker shade for hover */
+}
+
+/* Task item styling */
+.task-item {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+button a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+   
+}
+
+button.btn-update {
+    background-color: #28a745; /* Green for update */
+    border-radius: 10px;
+}
+
+button.btn-update :hover {
+    background-color:#28a745 ; /* Darker green on hover */
+    border-radius: 10px;
+}
+
+button.btn-delete  {
+    background-color: #dc3545; /* Red for delete */
+    border-radius: 10px;
+}
+
+button.btn-delete:hover {
+    background-color:#dc3545; /* Darker red on hover */
+}
